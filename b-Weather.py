@@ -1,9 +1,10 @@
-import requests
+import requests    # importing important pips
 import json
 
-# Your OpenWeatherMap API Key
-API_KEY = 'afed0c37366050569e22198d0a082ea7'
+# API Key
+API_KEY = '0f8392908460bafa29f2a5ae46c4b186'
 
+# Function to get city name
 def get_weather(city_name):
     base_url = 'http://api.openweathermap.org/data/2.5/weather'
     params = {'q': city_name, 'appid': API_KEY, 'units': 'metric'}  # You can change units to 'imperial' for Fahrenheit
