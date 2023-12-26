@@ -15,7 +15,10 @@ Now, using conditionals I check if the "response.status code == 200" if yes then
 
 ### Now, in main() block
 First user input is made in "city_name" variable. Then another "weather_data" variable is initialized with "get_weather(city_name)".
+
+#### The image below shows how response is stored in the form of dictionary after parsing the JSON response.
 ![alt text](https://github.com/GaneshSharma27/Weather-App/blob/main/response_output.png?raw=true)
+
 Then using conditionals, if "weather_data()" returns "data" then the information is extracted and stored in variables.
 Then all these variables are printed.
 Else, "City not found" is printed.
